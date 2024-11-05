@@ -62,13 +62,13 @@ Features:
 - git merge <branch-name>: Merges changes from the specified branch into the current branch.
 - git rebase <branch-name>: Reapplies commits from one branch onto another branch
 ### Remote Repositories :
-* - git remote add <name> <url>: Adds a remote repository reference with a specified name and URL.
+- git remote add <name> <url>: Adds a remote repository reference with a specified name and URL.
 - git remote -v: Lists all remote repositories along with their URLs.
 - git fetch <remote>: Retrieves changes from a remote repository.
 - git pull <remote> <branch>: Fetches changes and merges them into the current branch from a remote repository.
 - git push <remote> <branch>: Pushes committed changes from the local repository to a remote repository
 ### Undoing Changes:
-* - git reset <file>: Unstages changes for a specific file from the staging area.
+ - git reset <file>: Unstages changes for a specific file from the staging area.
 - git reset --soft HEAD~1: Moves HEAD to a previous commit, keeping changes staged.
 - git reset --hard HEAD~1: Resets HEAD to a previous commit, discarding all changes in the working directory and staging area.
 - git revert <commit>: Creates a new commit that undoes changes made by a previous commit
