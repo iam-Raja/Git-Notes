@@ -52,7 +52,7 @@ Features:
 - git clone <repository-url>: Clones a repository from a remote server to your local machine.
 - git status: Shows the current state of the working directory and staging area
 ### Committing Changes :
-* - git add <file>: Adds changes in a specific file to the staging area.
+- git add <file>: Adds changes in a specific file to the staging area.
 - git commit -m "Commit message": Commits staged changes to the local repository with a message describing the changes.
 - git commit --amend: Amends the last commit with any changes in the staging area or new commit message
 ### Viewing Changes:
