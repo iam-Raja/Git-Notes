@@ -56,7 +56,7 @@ Features:
 - git commit -m "Commit message": Commits staged changes to the local repository with a message describing the changes.
 - git commit --amend: Amends the last commit with any changes in the staging area or new commit message
 ### Viewing Changes:
-* - git branch: Lists all local branches in the repository.
+- git branch: Lists all local branches in the repository.
 - git branch <branch-name>: Creates a new branch with the specified name.
 - git checkout <branch-name>: Switches to the specified branch.
 - git merge <branch-name>: Merges changes from the specified branch into the current branch.
